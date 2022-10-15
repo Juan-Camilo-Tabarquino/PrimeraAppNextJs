@@ -6,6 +6,7 @@ export default function HomePage() {
 
   return (
     <MainLayout>
+      <>
         <h1>Pricing Page</h1>
         
         <h1 className="title">
@@ -17,6 +18,7 @@ export default function HomePage() {
           Get started by editing{' '}
           <code className={'code'}>pages/pricing/index.jsx</code>
         </p>
+      </>
     </MainLayout>
   )
 }
