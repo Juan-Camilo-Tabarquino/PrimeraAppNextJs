@@ -6,6 +6,7 @@ import { Navbar } from '../../components/Navbar'
 export default function ContactPage() {
   return (
     <MainLayout>
+      <>
         <h1>Contact Page</h1>
        
         <h1 className={'title'}>
@@ -16,6 +17,7 @@ export default function ContactPage() {
           Get started by editing{' '}
           <code className={'code'}>pages/contact.jsx</code>
         </p>
+      </>
     </MainLayout>
   )
 }
